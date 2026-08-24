@@ -63,7 +63,7 @@ The objective was to help management understand which products, payment methods,
 
 ## 📊 Dashboard
 
-![Order Fulfillment Dashboard Overview](Dashboard_Overview.png)
+![Order Fulfillment Dashboard Overview](dashboard_overview.png)
 
 ---
 
