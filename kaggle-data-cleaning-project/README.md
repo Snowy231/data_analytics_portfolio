@@ -6,8 +6,8 @@
 
 ## 📂 Project Structure
 
-- **Raw Data:** `raw_sales_orders.csv` (or whatever your raw file is named) - Unprocessed data with inconsistencies.
-- **Cleaned Data:** `cleaned_sales_orders.xlsx` - Final output ready for analysis.
+- **Raw Data:** `raw-data/Kaggle_messy_dataset.xlsx` - Unprocessed data with inconsistencies (source: Kaggle).
+- **Cleaned Data:** `cleaned-data/cleaned_dataset_v01.xlsx` - Final output ready for analysis.
 - **Process:** Full transformation performed using Power Query, documented in a detailed change log.
 
 ---
@@ -38,20 +38,21 @@ Below is the full logbook of data cleaning activities performed on the dataset. 
 
 Here is a screenshot of the **"Applied Steps"** pane from my Power Query Editor, showing the entire transformation sequence. It matches the logbook above step-by-step.
 
-*(Make sure you upload your `logbook_power_query_applied_steps.png` to the `images/` folder and use this line below)*
 ![Power Query Applied Steps](images/logbook_power_query_applied_steps.png)
 
 ---
 
 ## 📊 Before vs. After
 
-**Before (Raw, Messy Data):**
-*(Take a screenshot of the data before you cleaned it—showing messy dates, inconsistent text, or blank cells)*
-![Before Cleaning](images/1_original_data.png)
+**Before (Raw, Messy Data):**  
+*Shows the original data with inconsistent dates, missing coupon codes, and unformatted sales amounts.*
 
-**After (Cleaned, Structured Data):**
-*(Take a screenshot of the polished table with proper dates, trimmed text, and currency formatting)*
-![After Cleaning](images/2_cleaned_data.png)
+![Before Cleaning](images/Original_messy_dataset.png)
+
+**After (Cleaned, Structured Data):**  
+*Shows the polished table with proper date formatting, standardized text, coupon handling, and currency formatting.*
+
+![After Cleaning](images/cleaned_dataset.png)
 
 ---
 
@@ -63,7 +64,15 @@ Most importantly, I documented the **business reasoning** behind each cleaning s
 
 ---
 
-**Dataset Source:** [Link to the Kaggle dataset you used]
+## 📌 Next Steps
+
+This cleaned dataset is now ready for further analysis, such as:
+- Exploratory Data Analysis (EDA)
+- Sales performance reporting
+- Customer segmentation
+
+---
+
 
 **Date Completed:** August 2026
 
